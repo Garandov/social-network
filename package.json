@@ -1,0 +1,24 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend/my-react-app\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garandov/social-network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garandov/social-network/issues"
+  },
+  "homepage": "https://github.com/Garandov/social-network#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
